@@ -1,0 +1,77 @@
+/*
+=====================================================================
+*   Campo-Ciudad V2.0 Layout Stylesheet
+*   url: styleshout.com
+*   17-01-2015
+=====================================================================
+
+	TOC:
+	a. Navbar Styles 
+	b. Dewplayer	   
+ 
+===================================================================== */
+
+
+
+
+/* a. Navbar Styles
+/* ------------------------------------------------------------------ */
+
+ul#nav-right > li{
+	float: right;
+}
+ul#nav-right li{
+	
+	display: inline-block;
+    list-style: outside none none;
+    padding-top: 10px;
+    position: relative;
+    	
+}
+.nav-btn{
+	margin-bottom:0px;
+    padding: 3px;
+}
+
+#dropdown-user-menu > li > a{
+	 text-transform: capitalize;
+	 font: 12px;	 
+}
+
+/* b. Dewplayer
+/* ------------------------------------------------------------------ */
+div.dew-audio{
+	border-style: solid;
+	border-width: 5px;
+	border-color: #e9ebee;
+	margin: 5px;
+	padding:10px
+}
+
+object{
+	height: 20px !important;
+}
+
+div.jp-audio, div.jp-audio-stream, div.jp-video{
+	border: 0px !important;
+}
+/* C. Media queries
+/* ------------------------------------------------------------------ */
+@media screen and (max-width: 500px) {
+    /* jplayer */
+	.jp-audio, .jp-controls-holder {
+        width: 100% !important;
+    }
+	
+   .jp-progress {
+       width: 130px;
+   }
+   
+   
+}
+
+@media screen and (max-width: 700px) {
+	ul#nav-right > li{
+		float: left;
+	}
+}

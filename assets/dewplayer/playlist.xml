@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <title>Ounage Playlist</title>
+    <creator>Dew</creator>
+    <link>http://www.blup.fr/</link>
+    <info>The Best Playlist for Testing</info>
+    <image>covers/tracklist.jpg</image>
+
+    <trackList>
+
+        <track>
+          <location>test.mp3</location>
+          <creator>Bedrich Smetana</creator>
+          <album>Má Vlast</album>
+          <title>La Moldau (Vltava)</title>
+          <annotation>I love this song</annotation>
+          <duration>32000</duration>
+          <image>covers/smetana.jpg</image>
+          <info></info>
+          <link>http://fr.wikipedia.org/wiki/M%C3%A1_Vlast_(Smetana)</link>
+        </track>
+        <track>
+          <location>moldau.mp3</location>
+          <creator>Bedrich Smetana</creator>
+          <album>Má Vlast</album>
+          <title>La Moldau (Vltava)</title>
+          <annotation>I love this song</annotation>
+          <duration>32000</duration>
+          <image>covers/smetana.jpg</image>
+          <info></info>
+          <link>http://fr.wikipedia.org/wiki/M%C3%A1_Vlast_(Smetana)</link>
+        </track>
+    </trackList>
+</playlist>
